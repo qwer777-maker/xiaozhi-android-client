@@ -148,7 +148,7 @@ jobs:
 
       - name: Create Release
         id: create_release
-        uses: softprops/action-gh-release@v1
+        uses: qwer777-maker/action-gh-release@v1
         with:
           token: ${{ github.token }}
           tag_name: ${{ env.TAG_NAME }}
